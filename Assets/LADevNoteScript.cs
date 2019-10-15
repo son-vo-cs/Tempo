@@ -9,6 +9,7 @@ public class LADevNoteScript : MonoBehaviour
 {
     //static string path = ;
     StreamReader noteStream = new StreamReader("Assets/LADevoteeNotes.txt");
+    string snoteStream = "SL;DK;FJ;;SL;DK;FJ;;FJ;SL;DK;;;D;;D;;;;DK;;;DK;;;DK;;;SD;;SKL;;SKL;;;SKL;;;SKL;D;SKL;SKL;D;SKL;S;D;SKL;SKL;SKL;;SKL;D;SKL;F;SKL;DKL;KL;F;D;FKL;KL;D;FKL;D;F;DKL;S;SKL;DKL;JKL;S;FK;FK;J;K;;LD;F;;SKL;;SKL;SKL;D;SKL;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;";
     //public GameObject n;
     public GameObject snote;
     public GameObject dnote;
@@ -34,10 +35,11 @@ public class LADevNoteScript : MonoBehaviour
 
     IEnumerator noteCoroutine()
     {
-        while (!noteStream.EndOfStream)
+        //while (!snoteStream.EndOfStream)
+        while(true)
         {       
-            string inp_ln = noteStream.ReadLine();
-            char[] noteArr = inp_ln.ToCharArray();
+            //string inp_ln = noteStream.ReadLine();
+            char[] noteArr = snoteStream.ToCharArray();
 
             foreach (char c in noteArr)
             {

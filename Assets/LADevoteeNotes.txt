@@ -1,5 +1,5 @@
-SL;DK;FJ;;;FJ;SL;DK;;;D;;D;;;;DK;;;DK;;;DK;;;SD;;SKL;;SKL;;;SKL;;;SKL;;D;;
-;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;
+SL;DK;FJ;;SL;DK;FJ;;FJ;SL;DK;;;D;;D;;;;DK;;;DK;;;DK;;;SD;;SKL;;SKL;;;SKL;;;SKL;D;
+SKL;SKL;D;SKL;S;D;SKL;SKL;SKL;;SKL;D;SKL;F;SKL;DKL;KL;F;D;
+FKL;KL;D;FKL;D;F;DKL;S;SKL;DKL;JKL;S;FK;FK;J;K;;LD;F;;SKL;;SKL;SKL;D;SKL;
 ;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;
